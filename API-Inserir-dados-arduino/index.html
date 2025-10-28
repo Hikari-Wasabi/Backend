@@ -23,9 +23,12 @@
             type: 'line',
             data: {
                 datasets: [{
-                    label: 'Umidade',
-                    borderColor: '#63B1BC',
-                    backgroundColor: '#ED145B'
+                    label: 'Umidade (%)',
+                    borderColor: '#32b9cd',
+                    backgroundColor: 'rgba(50, 185, 205, 0.1)',
+                    borderWidth: 3,
+                    tension: 0.3,
+                    fill: true
                 }]
             },
             options: {
@@ -36,7 +39,7 @@
                     y: {
                         title: {
                             display: true,
-                            text: '(g/m³)'
+                            text: '(%)'
                         },
                         beginAtZero: true,
                     },
@@ -48,9 +51,12 @@
             type: 'line',
             data: {
                 datasets: [{
-                    label: 'Temperatura',
-                    borderColor: '#63B1BC',
-                    backgroundColor: '#0762C8'
+                    label: 'Temperatura (°C)',
+                    borderColor: '#f75d52',
+                    backgroundColor: 'rgba(247, 93, 82, 0.1)',
+                    borderWidth: 3,
+                    tension: 0.3,
+                    fill: true
                 }]
             },
             options: {
